@@ -1,6 +1,7 @@
 def square_array(array)
+  ret = []
   array.each do |int|
-    int = int*2
+    ret.push(int*int)
   end
-  array
+  ret
 end
